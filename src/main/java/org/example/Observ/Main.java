@@ -4,16 +4,16 @@ public class Main {
     public static void main(String[] args) {
         NewsAgency newsAgency = new NewsAgency();
 
-        NewsChannel channel1 = new NewsChannel("Channel 1");
-        NewsChannel channel2 = new NewsChannel("Channel 2");
+        NewsChannel first = new NewsChannel("1");
+        NewsChannel  second = new NewsChannel("2");
 
-        newsAgency.add(channel1);
-        newsAgency.add(channel2);
+        newsAgency.add(first);
+        newsAgency.add(second);
 
-        newsAgency.setLatestHeadline("Breaking News: Observer Pattern Implemented!");
-        newsAgency.setLatestHeadline("New Java Features Released!");
+        newsAgency.setLatestHeadline("hello");
+        newsAgency.setLatestHeadline("Bye");
 
-        newsAgency.remove(channel1);
-        newsAgency.setLatestHeadline("Another Headline: Observer Removed!");
+        newsAgency.remove(first);
+        newsAgency.setLatestHeadline("zhasik");
     }
 }
