@@ -18,7 +18,7 @@ public class History {
             mementoStack.pop();
             return mementoStack.elementAt(mementoStack.size()-1);
         } else {
-            throw new RuntimeException("No mementos to undo");
+            throw new RuntimeException("Error");
         }
     }
 }
